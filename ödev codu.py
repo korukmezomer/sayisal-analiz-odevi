@@ -20,7 +20,7 @@ print("Gerçek değer",gercekDeger)
 
 while n<3:
     deger = hesap(n)
-    hata = abs(gercekDeger - deger)
+    hata = (gercekDeger - deger)
     n+=1
     print( i,"terimli değer",deger)
     print(i,"terimli kesme hatası",hata)
